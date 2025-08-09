@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sewa Lapangan Futsal | Futsal Arena</title>
+    <meta name="description" content="Informasi penyewaan lapangan futsal: harga, jadwal, fasilitas, lokasi, dan kontak reservasi." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#" class="brand">Futsal Arena</a>
+        <button class="nav-toggle" aria-label="Buka menu" id="navToggle">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#lapangan">Lapangan</a></li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="#jadwal">Jadwal</a></li>
+          <li><a href="#fasilitas">Fasilitas</a></li>
+          <li><a href="#lokasi">Lokasi</a></li>
+          <li><a class="btn btn-primary btn-sm" href="#kontak">Reservasi</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>Sewa Lapangan Futsal Nyaman & Terjangkau</h1>
+            <p class="lead">
+              Booking mudah, jadwal jelas, fasilitas lengkap. Cocok untuk
+              sparing, fun match, hingga turnamen kecil.
+            </p>
+            <div class="hero-cta">
+              <a href="#lapangan" class="btn btn-primary">Lihat Lapangan</a>
+              <a id="waHero" class="btn btn-outline" target="_blank" rel="noreferrer">Reservasi WhatsApp</a>
+            </div>
+            <p class="hint">Buka setiap hari 08:00 – 23:00</p>
+          </div>
+          <div class="hero-media" aria-hidden="true">
+            <div class="hero-card">
+              <img src="https://images.unsplash.com/photo-1543342575-e9250490c1a4?q=80&w=1400&auto=format&fit=crop" alt="Lapangan futsal sintetis" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="lapangan" class="section">
+        <div class="container">
+          <h2>Daftar Lapangan</h2>
+          <p class="section-subtitle">Pilih lapangan favoritmu</p>
+          <div class="cards" id="fieldCards">
+            <!-- Diisi oleh script.js -->
+          </div>
+        </div>
+      </section>
+
+      <section id="harga" class="section alt">
+        <div class="container">
+          <h2>Harga & Paket</h2>
+          <div class="pricing">
+            <div class="pricing-table">
+              <div class="pricing-row pricing-head">
+                <div>Waktu</div>
+                <div>Tarif / Jam</div>
+              </div>
+              <div class="pricing-row">
+                <div>Pagi (08:00–12:00)</div>
+                <div>Rp 120.000</div>
+              </div>
+              <div class="pricing-row">
+                <div>Siang (12:00–17:00)</div>
+                <div>Rp 150.000</div>
+              </div>
+              <div class="pricing-row">
+                <div>Malam (17:00–23:00)</div>
+                <div>Rp 180.000</div>
+              </div>
+            </div>
+            <div class="pricing-note">
+              <ul>
+                <li><strong>Paket Hemat:</strong> Bayar 10x, gratis 1x main</li>
+                <li><strong>Member:</strong> Diskon hingga 10%</li>
+                <li>Termasuk: bola, rompi, air mineral galon</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="jadwal" class="section">
+        <div class="container">
+          <h2>Jadwal Hari Ini</h2>
+          <p class="section-subtitle">Cek ketersediaan jam main terbaru</p>
+          <div class="legend">
+            <span class="badge available">Tersedia</span>
+            <span class="badge booked">Penuh</span>
+            <span class="badge soon">Segera</span>
+          </div>
+          <div id="schedule" class="schedule">
+            <!-- Diisi oleh script.js -->
+          </div>
+        </div>
+      </section>
+
+      <section id="fasilitas" class="section alt">
+        <div class="container">
+          <h2>Fasilitas</h2>
+          <ul class="features">
+            <li>🅿️ Parkir luas</li>
+            <li>🕌 Musholla</li>
+            <li>🚿 Kamar mandi & shower</li>
+            <li>🧃 Kantin & minuman</li>
+            <li>🏟️ Tribun penonton</li>
+            <li>🧤 Sewa rompi & bola</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="lokasi" class="section">
+        <div class="container">
+          <h2>Lokasi</h2>
+          <div class="location">
+            <div>
+              <p>
+                Jl. Contoh Olahraga No. 10, Kota Olah, Indonesia<br />
+                (Dekat Stadion Kota)
+              </p>
+              <p>
+                <a class="btn btn-outline" target="_blank" rel="noreferrer" href="https://maps.google.com/?q=Futsal%20Arena%20Kota%20Olah">Buka di Google Maps</a>
+              </p>
+            </div>
+            <div class="map-embed">
+              <iframe title="Peta lokasi Futsal Arena" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7456591292506!2d106.8227369!3d-6.1652098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f43b8adf7307%3A0x2c39dfd6b479850!2sMonumen%20Nasional!5e0!3m2!1sid!2sid!4v1700000000000"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="section alt">
+        <div class="container">
+          <h2>Kontak & Reservasi</h2>
+          <div class="contact">
+            <div>
+              <p>
+                <strong>WhatsApp:</strong>
+                <a id="waKontak" target="_blank" rel="noreferrer"></a>
+              </p>
+              <p>
+                <strong>Telepon:</strong>
+                <a id="telKontak" href="tel:+6281234567890">+62 812-3456-7890</a>
+              </p>
+              <p><strong>Jam Operasional:</strong> 08:00 – 23:00 (Setiap hari)</p>
+              <div class="contact-cta">
+                <a id="waReservasi" class="btn btn-primary" target="_blank" rel="noreferrer">Chat WhatsApp</a>
+                <a href="#jadwal" class="btn btn-outline">Cek Jadwal</a>
+              </div>
+            </div>
+            <form class="contact-form" onsubmit="return false">
+              <div class="grid-2">
+                <label>
+                  Nama
+                  <input type="text" placeholder="Nama pemesan" required />
+                </label>
+                <label>
+                  Tanggal
+                  <input type="date" required />
+                </label>
+                <label>
+                  Jam
+                  <input type="time" required />
+                </label>
+                <label>
+                  Lapangan
+                  <select id="lapanganSelect"></select>
+                </label>
+                <label class="grid-span-2">
+                  Catatan
+                  <textarea placeholder="Contoh: Fun match 90 menit"></textarea>
+                </label>
+              </div>
+              <button id="waForm" class="btn btn-primary">Kirim via WhatsApp</button>
+              <p class="form-hint">Form ini akan membuka WhatsApp dengan pesan otomatis.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Futsal Arena. Semua hak dilindungi.</p>
+        <a href="#" class="back-to-top">↑ Kembali ke atas</a>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
