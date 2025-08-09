@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futsal Center - Penyewaan Lapangan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <i class="fas fa-futbol"></i>
+                <span>Futsal Center</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#lapangan" class="nav-link">Lapangan</a></li>
+                <li><a href="#harga" class="nav-link">Harga</a></li>
+                <li><a href="#booking" class="nav-link">Booking</a></li>
+                <li><a href="#kontak" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Futsal Center</h1>
+            <p>Lapangan futsal berkualitas dengan fasilitas terbaik untuk pertandingan seru Anda</p>
+            <a href="#booking" class="cta-button">Booking Sekarang</a>
+        </div>
+    </section>
+
+    <!-- Lapangan Section -->
+    <section id="lapangan" class="lapangan-section">
+        <div class="container">
+            <h2>Lapangan Kami</h2>
+            <div class="lapangan-grid">
+                <div class="lapangan-card">
+                    <div class="lapangan-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Lapangan Indoor">
+                    </div>
+                    <div class="lapangan-info">
+                        <h3>Lapangan Indoor A</h3>
+                        <p>Lapangan indoor dengan rumput sintetis berkualitas tinggi</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Rumput sintetis premium</li>
+                            <li><i class="fas fa-check"></i> Pencahayaan LED</li>
+                            <li><i class="fas fa-check"></i> AC & Ventilasi</li>
+                            <li><i class="fas fa-check"></i> Ruang ganti</li>
+                        </ul>
+                        <span class="status available">Tersedia</span>
+                    </div>
+                </div>
+
+                <div class="lapangan-card">
+                    <div class="lapangan-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Lapangan Indoor">
+                    </div>
+                    <div class="lapangan-info">
+                        <h3>Lapangan Indoor B</h3>
+                        <p>Lapangan indoor dengan permukaan vinyl yang nyaman</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Permukaan vinyl</li>
+                            <li><i class="fas fa-check"></i> Pencahayaan LED</li>
+                            <li><i class="fas fa-check"></i> AC & Ventilasi</li>
+                            <li><i class="fas fa-check"></i> Ruang ganti</li>
+                        </ul>
+                        <span class="status booked">Dibooking</span>
+                    </div>
+                </div>
+
+                <div class="lapangan-card">
+                    <div class="lapangan-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Lapangan Indoor">
+                    </div>
+                    <div class="lapangan-info">
+                        <h3>Lapangan Indoor C</h3>
+                        <p>Lapangan indoor dengan rumput sintetis dan tribune</p>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Rumput sintetis premium</li>
+                            <li><i class="fas fa-check"></i> Tribune penonton</li>
+                            <li><i class="fas fa-check"></i> Pencahayaan profesional</li>
+                            <li><i class="fas fa-check"></i> Ruang VIP</li>
+                        </ul>
+                        <span class="status available">Tersedia</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Harga Section -->
+    <section id="harga" class="harga-section">
+        <div class="container">
+            <h2>Daftar Harga</h2>
+            <div class="harga-grid">
+                <div class="harga-card">
+                    <h3>Weekday</h3>
+                    <div class="harga">
+                        <span class="currency">Rp</span>
+                        <span class="amount">150.000</span>
+                        <span class="period">/jam</span>
+                    </div>
+                    <ul>
+                        <li>Senin - Jumat</li>
+                        <li>08:00 - 22:00</li>
+                        <li>Minimal booking 1 jam</li>
+                        <li>Gratis air mineral</li>
+                    </ul>
+                </div>
+
+                <div class="harga-card featured">
+                    <div class="badge">Populer</div>
+                    <h3>Weekend</h3>
+                    <div class="harga">
+                        <span class="currency">Rp</span>
+                        <span class="amount">200.000</span>
+                        <span class="period">/jam</span>
+                    </div>
+                    <ul>
+                        <li>Sabtu - Minggu</li>
+                        <li>08:00 - 22:00</li>
+                        <li>Minimal booking 1 jam</li>
+                        <li>Gratis air mineral</li>
+                        <li>Gratis jersey</li>
+                    </ul>
+                </div>
+
+                <div class="harga-card">
+                    <h3>Malam</h3>
+                    <div class="harga">
+                        <span class="currency">Rp</span>
+                        <span class="amount">180.000</span>
+                        <span class="period">/jam</span>
+                    </div>
+                    <ul>
+                        <li>Setiap hari</li>
+                        <li>22:00 - 02:00</li>
+                        <li>Minimal booking 1 jam</li>
+                        <li>Gratis air mineral</li>
+                        <li>Pencahayaan khusus</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="container">
+            <h2>Booking Lapangan</h2>
+            <div class="booking-container">
+                <div class="booking-form">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="nama">Nama Lengkap</label>
+                            <input type="text" id="nama" name="nama" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telepon">Nomor Telepon</label>
+                            <input type="tel" id="telepon" name="telepon" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lapangan">Pilih Lapangan</label>
+                            <select id="lapangan" name="lapangan" required>
+                                <option value="">Pilih lapangan</option>
+                                <option value="indoor-a">Lapangan Indoor A</option>
+                                <option value="indoor-b">Lapangan Indoor B</option>
+                                <option value="indoor-c">Lapangan Indoor C</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="tanggal">Tanggal</label>
+                            <input type="date" id="tanggal" name="tanggal" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="waktu">Waktu Mulai</label>
+                            <input type="time" id="waktu" name="waktu" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="durasi">Durasi (Jam)</label>
+                            <select id="durasi" name="durasi" required>
+                                <option value="">Pilih durasi</option>
+                                <option value="1">1 Jam</option>
+                                <option value="2">2 Jam</option>
+                                <option value="3">3 Jam</option>
+                                <option value="4">4 Jam</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Booking Sekarang</button>
+                    </form>
+                </div>
+                
+                <div class="booking-info">
+                    <h3>Informasi Booking</h3>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>08:00 - 02:00 (Setiap Hari)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>0812-3456-7890</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Futsal No. 123, Jakarta Selatan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-info-circle"></i>
+                        <div>
+                            <h4>Ketentuan</h4>
+                            <ul>
+                                <li>Booking minimal 1 jam</li>
+                                <li>DP 50% saat booking</li>
+                                <li>Pembayaran lunas saat check-in</li>
+                                <li>Pembatalan maksimal 2 jam sebelum jadwal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak-section">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <div class="kontak-grid">
+                <div class="kontak-info">
+                    <h3>Informasi Kontak</h3>
+                    <div class="kontak-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>0812-3456-7890</p>
+                            <p>021-1234-5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kontak-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@futsalcenter.com</p>
+                            <p>booking@futsalcenter.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kontak-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. Futsal No. 123</p>
+                            <p>Jakarta Selatan, 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kontak-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Minggu</p>
+                            <p>08:00 - 02:00</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="kontak-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="kontakForm">
+                        <div class="form-group">
+                            <label for="kontak-nama">Nama</label>
+                            <input type="text" id="kontak-nama" name="kontak-nama" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="kontak-email">Email</label>
+                            <input type="email" id="kontak-email" name="kontak-email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="kontak-subjek">Subjek</label>
+                            <input type="text" id="kontak-subjek" name="kontak-subjek" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="kontak-pesan">Pesan</label>
+                            <textarea id="kontak-pesan" name="kontak-pesan" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Futsal Center</h3>
+                    <p>Lapangan futsal berkualitas dengan fasilitas terbaik untuk pertandingan seru Anda.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#lapangan">Lapangan Indoor</a></li>
+                        <li><a href="#booking">Booking Online</a></li>
+                        <li><a href="#harga">Daftar Harga</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Fasilitas</h3>
+                    <ul>
+                        <li>Rumput Sintetis Premium</li>
+                        <li>Pencahayaan LED</li>
+                        <li>AC & Ventilasi</li>
+                        <li>Ruang Ganti</li>
+                        <li>Parkir Luas</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-phone"></i> 0812-3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@futsalcenter.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Futsal No. 123, Jakarta Selatan</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Futsal Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
